@@ -1,7 +1,9 @@
 [[impressum]]
 = Impressum
 Roland T. Lichti <rlichti@kaiserpfalz-edv.de>
-:page-aliases: dcis:dcis:impressum.adoc, architecture:arc42:impressum.adoc tp:torganized-play:impressum.adoc
+:page-aliases: dcis:dcis:impressum.adoc, dcis:impressum.adoc, \
+architecture:arc42:impressum.adoc, architecture:impressum.adoc, \
+tp:torganized-play:impressum.adoc, tp:impressum.adoc
 :homepage: https://paladins-inn.de
 :keywords: RPG, TTRPG, Software
 
@@ -20,17 +22,5 @@ Also it tries to create a shared campaign with a shared timeline and a scoring s
 [[impressum-contact]]
 [caption=]
 .Angaben gemäß §18 Abs. 2 Mediendienststaatsvertrag und Verantwortlich für den Inhalt nach §55 Abs. 2 RStV
-[cols="<.<4h,<.<16a",frame="topbot",grid="rows"]
-|===
-| Anschrift
-| Kaiserpfalz EDV-Service +
-Roland T. Lichti +
-Darmstädter Straße 12 +
-64625 Bensheim
-
-| Telefon
-| +49 (0)5172-93927172
-| Email
-| rlichti@kaiserpfalz-edv.de
-|===
+include::partial$contact-table.adoc[]
 

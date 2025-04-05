@@ -1,0 +1,13 @@
+[cols="<.<4h,<.<16a",frame="topbot",grid="rows"]
+|===
+| Anschrift
+| Kaiserpfalz EDV-Service +
+Roland T. Lichti +
+Darmstädter Straße 12 +
+64625 Bensheim
+
+| Telefon
+| +49 (0)5172-93927172
+| Email
+| rlichti@kaiserpfalz-edv.de
+|===
