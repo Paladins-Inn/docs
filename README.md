@@ -1,14 +1,16 @@
-# dcis-architecture
+# paladins-inn/docs
 
 > What man is a man who does not make the world better.
 >
 > -- Balian, Kingdom of Heaven
 
+[![Publish to GitHub Pages with Lunr Search Extension](https://github.com/Paladins-Inn/docs/actions/workflows/publish-docs.yml/badge.svg)](https://github.com/Paladins-Inn/docs/actions/workflows/publish-docs.yml)
+
 ## Abstract
 
-This project contains the arc42 description for the whole DCIS system.
-It is created as white paper containing the target system description.
-But during implementation it will evolve into the macro architecture document of the DCIS system.
+This is the source to https://docs.paladins-inn.de.
+I document the projects of https://www.paladins-inn.de on this antora based site.
+The hosting is done via github pages.
 
 ## License
 
@@ -23,4 +25,4 @@ So no short cuts to get faster.
 And be prepared for some basic discussions about the architecture or software design :-).
 
 ---
-Bensheim, 2024-10-03
+Bensheim, 2025-04-05
