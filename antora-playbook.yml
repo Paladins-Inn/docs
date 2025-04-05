@@ -42,6 +42,10 @@ ui:
       contents: |
        docs.paladins-inn.de
 
+antora:
+  extensions:
+    - require: '@antora/lunr-extension'
+
 asciidoc:
   attributes:
     sectanchors: true
