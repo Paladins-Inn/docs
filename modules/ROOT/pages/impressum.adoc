@@ -2,6 +2,7 @@
 = Impressum
 Roland T. Lichti <rlichti@kaiserpfalz-edv.de>
 
+:page-aliases: dcis:dcis:impressum.adoc, architecture:arc42:impressum.adoc tp:torganized-play:impressum.adoc
 :homepage: https://paladins-inn.de
 :keywords: RPG, TTRPG, Software
 
