@@ -1,3 +1,4 @@
-* xref:pi:commons:index.adoc[Home]
-* xref:tp:torganized-play:index.adoc[Torganized Play]
-* xref:dcis:dcis:index.adoc[Delphi Council Information System]
+* https://www.paladins-inn.de[Paladins Inn]
+* xref:tp:torganized-play:index.adoc[]
+** xref:dcis:dcis:index.adoc[]
+** xref:architecture:arc42:index.adoc[]

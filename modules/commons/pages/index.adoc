@@ -1,5 +1,6 @@
-= Torganized Play
-Roland T. Lichti <klenkes74@paladins-inn.de>
+= Paladins Inn Software
 
-== Welcome Storm Knight!
+Willkommen auf den Seiten vom Paladins Inn.
+Hier findest Du Dokumentation über die Software-Projekte rund um Rollenspiele.
 
+include::nav.adoc[]

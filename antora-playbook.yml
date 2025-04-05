@@ -3,26 +3,9 @@ site:
   title: Paladins Inn Software
   url: https://docs.paladins-inn.de
   start_page: pi:commons:index.adoc
-ui:
-  bundle:
-    url: ui-bundle/
-    snapshot: true
-  supplemental_files:
-    - path: ui.yml
-      contents: |
-        static_files:
-        - CNAME
-    - path: CNAME
-      contents: |
-       docs.paladins-inn.de
-asciidoc:
-  attributes:
-    sectanchors: true
-    plantuml-server-url: http://www.plantuml.com/plantuml
-    plantuml-fetch-diagram: true
-    imagesoutdir: temp_image/
-  extensions:
-    - asciidoctor-plantuml
+  robots: |
+    User-agent: *
+    Disallow: /impressum.html
 
 content:
   sources:
@@ -41,3 +24,35 @@ content:
       start_path: src/main/docs/architecture
       branches: main
       version: false
+
+urls:
+  redirect_facility: httpd
+  html_extension_style: drop
+
+ui:
+  bundle:
+    url: ui-bundle/
+    snapshot: true
+  supplemental_files:
+    - path: ui.yml
+      contents: |
+        static_files:
+        - CNAME
+    - path: CNAME
+      contents: |
+       docs.paladins-inn.de
+
+asciidoc:
+  attributes:
+    sectanchors: true
+    plantuml-server-url: http://www.plantuml.com/plantuml
+    plantuml-fetch-diagram: true
+    imagesoutdir: temp_image/
+  extensions:
+    - asciidoctor-plantuml
+
+runtime:
+  fetch: true
+  log:
+    level: info
+    format: pretty
