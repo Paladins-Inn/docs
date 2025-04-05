@@ -1,0 +1,6 @@
+---
+name: pi
+version: ~
+title: Paladins Inn Software
+nav:
+  - modules/commons/pages/nav.adoc

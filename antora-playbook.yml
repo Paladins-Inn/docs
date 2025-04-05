@@ -1,11 +1,11 @@
 ---
 site:
-  title: Torganized Play
+  title: Paladins Inn Software
   url: https://docs.paladins-inn.de
-  start_page: tp:torganized-play:index.adoc
+  start_page: pi:commons:index.adoc
 ui:
   bundle:
-    url: src/main/ui-bundle/
+    url: ui-bundle/
     snapshot: true
   supplemental_files:
     - path: ui.yml
@@ -27,14 +27,17 @@ asciidoc:
 content:
   sources:
     - url: .
+      branches: main
+      version: false
+    - url: https://github.com/Paladins-Inn/torganized-play-architecture.git
       start_path: src/main/docs/torganized-play
       branches: main
       version: false
-    - url: .
+    - url: https://github.com/Paladins-Inn/torganized-play-architecture.git
       start_path: src/main/docs/dcis
       branches: main
       version: false
-    - url: .
+    - url: https://github.com/Paladins-Inn/torganized-play-architecture.git
       start_path: src/main/docs/architecture
       branches: main
       version: false
