@@ -6,7 +6,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   schedule:
-    - cron: "45 */3 * * *"   # <=== Change this value
+    - cron: "45 */12 * * *"   # <=== Change this value
 concurrency:
   group: github-pages
   cancel-in-progress: false
