@@ -27,7 +27,6 @@ content:
 
 urls:
   redirect_facility: static
-  html_extension_style: drop
 
 ui:
   bundle:
