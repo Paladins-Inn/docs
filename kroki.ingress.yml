@@ -1,0 +1,42 @@
+---
+kind: Ingress
+apiVersion: networking.k8s.io/v1
+metadata:
+  namespace: kes-devinfra
+  name: kroki
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    cert-manager.io/common-name: kroki.kaiserpfalz-edv.de
+    cert-manager.io/duration: 720h
+    cert-manager.io/localities: Bensheim
+    cert-manager.io/postalcodes: '64625'
+    cert-manager.io/private-key-algorithm: RSA
+    cert-manager.io/private-key-size: '4096'
+    cert-manager.io/renew-before: 600h
+    cert-manager.io/revision-history-limit: '2'
+    cert-manager.io/subject-countries: de
+    cert-manager.io/subject-organizations: Kaiserpfalz EDV-Service
+    cert-manager.io/subject-provinces: Hessen
+    cert-manager.io/usages: server auth
+    certmanager.io-private-key-rotation-policy: Always
+  labels:
+    app.kubernetes.io/instance: kroki
+    app.kubernetes.io/name: kroki
+    app.kubernetes.io/version: 0.25.0
+spec:
+  ingressClassName: openshift-default
+  rules:
+    - host: kroki.kaiserpfalz-edv.de
+      http:
+        paths:
+          - backend:
+              service:
+                name: kroki
+                port:
+                  name: http
+            path: /
+            pathType: ImplementationSpecific
+  tls:
+    - hosts:
+        - kroki.kaiserpfalz-edv.de
+      secretName: kroki-tls
