@@ -13,3 +13,4 @@ src/main/docs/index.epub
 **/business-context-*.svg
 **/quality-tree.svg
 **/technical-context.svg
+/.bundle

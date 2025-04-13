@@ -28,12 +28,22 @@ jobs:
           submodules: recursive
       - name: Configure Pages
         uses: actions/configure-pages@v5
+      - name: Install Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - name: Install ruby asciidoctor-pdf
+        run: |
+          bundle config --local path .bundle/gems
+          bundle
+          
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
       - name: Install Antora with the Antora Lunr Extension
-        run: npm i antora @antora/lunr-extension
+        run: npm i antora @antora/lunr-extension @antora/pdf-extension
       - name: Install PlantUML for NodeJS
         run: npm i -f asciidoctor-plantuml
       - name: Generate Site

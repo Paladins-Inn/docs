@@ -46,7 +46,8 @@ antora:
     - require: '@antora/lunr-extension'
     - require: './asam-antora-extensions/asam-asciidoctor_extensions.js'
       bibliography: true
-
+    - require: '@antora/pdf-extension'
+    
 asciidoc:
   attributes:
     sectanchors: true
