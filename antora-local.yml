@@ -44,8 +44,6 @@ ui:
 antora:
   extensions:
     - require: '@antora/lunr-extension'
-    - require: './asam-antora-extensions/asam-asciidoctor_extensions.js'
-      bibliography: true
     - require: '@antora/pdf-extension'
     
 asciidoc:
@@ -56,7 +54,6 @@ asciidoc:
     imagesoutdir: temp_image/
   extensions:
     - 'asciidoctor-plantuml'
-    - './asam-antora-extensions/asam-asciidoctor_extensions.js'
 
 runtime:
   fetch: true
