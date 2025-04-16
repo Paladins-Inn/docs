@@ -49,11 +49,11 @@ antora:
 asciidoc:
   attributes:
     sectanchors: true
-    plantuml-server-url: https://kroki.kaiserpfalz-edv.de/plantuml
-    plantuml-fetch-diagram: true
+    kroki-server-url: https://kroki.kaiserpfalz-edv.de/plantuml
+    kroki-fetch-diagram: true
     imagesoutdir: temp_image/
   extensions:
-    - 'asciidoctor-plantuml'
+    - 'asciidoctor-kroki'
 
 runtime:
   fetch: true

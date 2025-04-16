@@ -43,9 +43,7 @@ jobs:
         with:
           node-version: '18'
       - name: Install Antora with the Antora Lunr Extension
-        run: npm i antora @antora/lunr-extension @antora/pdf-extension
-      - name: Install PlantUML for NodeJS
-        run: npm i -f asciidoctor-plantuml
+        run: npm i antora @antora/lunr-extension @antora/pdf-extension asciidoctor-kroki
       - name: Generate Site
         run: npx antora --stacktrace antora-playbook.yml
       - name: Upload Artifacts
