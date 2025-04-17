@@ -1,4 +1,5 @@
 = Paladins Inn Software
+:page-aliases: ROOT:index.adoc
 
 Willkommen auf den Seiten vom Paladins Inn.
 Hier findest Du Dokumentation über die Software-Projekte rund um Rollenspiele.

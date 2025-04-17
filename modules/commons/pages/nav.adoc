@@ -1,4 +1,4 @@
 * https://www.paladins-inn.de[Paladins Inn]
 * xref:tp:torganized-play:index.adoc[]
 ** xref:dcis:dcis:index.adoc[]
-** xref:architecture:arc42:index.adoc[] https://docs.paladins-inn.de/architecture/dcis-architecture.pdf[[PDF]]
+** xref:architecture:arc42:index.adoc[] link:/architecture/dcis-systemarchitecture.pdf[[PDF]]
