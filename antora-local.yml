@@ -48,12 +48,14 @@ antora:
     
 asciidoc:
   attributes:
+    toc: ''
+    sectnums: ''
     sectanchors: true
-    plantuml-server-url: https://kroki.kaiserpfalz-edv.de/plantuml
+    kroki-server-url: https://kroki.apps.kali.kaiserpfalz-edv.de
     plantuml-fetch-diagram: true
-    imagesoutdir: temp_image/
+    kroki: temp_image/
   extensions:
-    - 'asciidoctor-plantuml'
+    - 'asciidoctor-kroki'
 
 runtime:
   fetch: true

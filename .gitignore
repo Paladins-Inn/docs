@@ -1,11 +1,8 @@
-.idea/
+/.idea/
 docs/generated/
-build/
+/build/
 /node_modules/
-target/
-src/main/docs/index.html
-src/main/docs/index.pdf
-src/main/docs/index.epub
+/target/
 **/.asciidoctor/
 *.drawio.svg.bkp
 *.bak
@@ -14,3 +11,6 @@ src/main/docs/index.epub
 **/quality-tree.svg
 **/technical-context.svg
 /.bundle
+Gemfile.lock
+/package.json
+/package-lock.json
