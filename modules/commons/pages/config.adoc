@@ -1,0 +1,11 @@
+
+:toc:
+:sectnumls:
+:sectnumlevels: 5
+:sectlinks:
+:sectids:
+:sectanchors:
+:sectids:
+:chapter-label: Chapter
+:icons: font
+:partnums:
