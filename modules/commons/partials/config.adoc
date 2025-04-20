@@ -1,12 +1,10 @@
 :heading-font-color: #ff0000
 
-:toc:
-:sectnumls:
+:sectnums:
 :sectnumlevels: 5
 :sectlinks:
 :sectids:
 :sectanchors:
-:sectids:
 :chapter-label: Chapter
 :icons: font
 :partnums:
