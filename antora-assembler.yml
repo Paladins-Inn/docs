@@ -2,7 +2,10 @@ root_level: 0
 component_versions: '*'
 asciidoc:
   attributes:
-    allow-uri-read: 'true'
+    toc: ''
+    sectnums: ''
+    toclevels: 5
+    allow-uri-read: true
     kroki-fetch-diagram: ~
     source-highlighter: rouge
     pdf-theme: ./paladins-inn-theme.yml
