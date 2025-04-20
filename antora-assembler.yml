@@ -3,8 +3,10 @@ component_versions: '*'
 asciidoc:
   attributes:
     toc: ''
-    sectnums: ''
     toclevels: 5
+    sectnums: ''
+    sectnumlevels: 5
+    sectanchors: true
     allow-uri-read: true
     kroki-fetch-diagram: ~
     source-highlighter: rouge

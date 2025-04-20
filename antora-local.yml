@@ -49,7 +49,9 @@ antora:
 asciidoc:
   attributes:
     toc: ''
+    toclevels: 5
     sectnums: ''
+    sectnumlevels: 5
     sectanchors: true
     kroki-server-url: https://kroki.apps.kali.kaiserpfalz-edv.de
     plantuml-fetch-diagram: true

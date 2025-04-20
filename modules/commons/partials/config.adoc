@@ -1,3 +1,4 @@
+:heading-font-color: #ff0000
 
 :toc:
 :sectnumls:
