@@ -12,6 +12,10 @@ content:
     - url: .
       branches: main
       version: false
+    - url: https://github.com/Paladins-Inn/foundryvtt-k8s.git
+      start_path: docs/
+      branches: main
+      version: true
     - url: https://github.com/Paladins-Inn/torganized-play-architecture.git
       start_path: src/main/docs/torganized-play
       branches: main
