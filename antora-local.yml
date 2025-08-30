@@ -53,7 +53,7 @@ asciidoc:
     sectnums: ''
     sectnumlevels: 5
     sectanchors: true
-    kroki-server-url: https://kroki.apps.kali.kaiserpfalz-edv.de
+    kroki-server-url: https://kroki.apps.pandur.org
     plantuml-fetch-diagram: true
     kroki: temp_image/
   extensions:
