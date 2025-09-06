@@ -1,4 +1,10 @@
 * https://www.paladins-inn.de[Paladins Inn]
 * xref:tp:torganized-play:index.adoc[]
 ** xref:dcis:dcis:index.adoc[]
-** xref:architecture:arc42:index.adoc[] link:/architecture/dcis-systemarchitecture.pdf[[PDF]]
+** xref:architecture:arc42:index.adoc[]
+* Con Organization
+** xref:rollenspiel-cons:manual:index.adoc[]
+** xref:rollenspiel-cons:arc42:index.adoc[]
+* Session Organization
+** xref:session-planner:manual:index.adoc[]
+** xref:session-planner:arc42:index.adoc[]
