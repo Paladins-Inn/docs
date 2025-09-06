@@ -29,13 +29,13 @@ content:
       branches: main
       version: false
     - url: https://github.com/Paladins-Inn/rollenspiel-cons.git
-      start_path: docs
+      start_path: docs/
       branches: main
-      version: false
+      version: true
     - url: https://github.com/Paladins-Inn/session-planner.git
-      start_path: docs
+      start_path: docs/
       branches: main
-      version: false
+      version: true
 
 urls:
   redirect_facility: static
