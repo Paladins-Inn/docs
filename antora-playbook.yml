@@ -28,6 +28,14 @@ content:
       start_path: src/main/docs/architecture
       branches: main
       version: false
+    - url: https://github.com/Paladins-Inn/rollenspiel-cons.git
+      start_path: docs
+      branches: main
+      version: false
+    - url: https://github.com/Paladins-Inn/session-planner.git
+      start_path: docs
+      branches: main
+      version: false
 
 urls:
   redirect_facility: static
