@@ -30,7 +30,7 @@ content:
       version: false
     - url: https://github.com/Paladins-Inn/rollenspiel-cons.git
       start_path: docs/
-      branches: ["main", "feature/google-calendar"]
+      branches: ["main", "feature/google-events"]
       version: true
     - url: https://github.com/Paladins-Inn/session-planner.git
       start_path: docs/
