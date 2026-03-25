@@ -32,6 +32,10 @@ content:
       start_path: docs/
       branches: ["main", "feature/google-events"]
       version: true
+    - url: https://github.com/Paladins-Inn/db-updater.git
+      start_path: docs/
+      branches: ["main"]
+      version: true
     - url: https://github.com/Paladins-Inn/session-planner.git
       start_path: docs/
       branches: main
