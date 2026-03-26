@@ -8,3 +8,6 @@
 * Session Organization
 ** xref:session-planner:manual:index.adoc[]
 ** xref:session-planner:arc42:index.adoc[]
+* Utitlies
+** xref:db-updater:manual:index.adoc[]
+** xref:db-updater:arc42:index.adoc[]
