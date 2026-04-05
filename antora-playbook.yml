@@ -28,17 +28,13 @@ content:
       start_path: src/main/docs/architecture
       branches: main
       version: false
-    - url: https://github.com/Paladins-Inn/rollenspiel-cons.git
+    - url: https://github.com/Paladins-Inn/pandurart.git
       start_path: docs/
-      branches: ["main", "feature/google-events"]
+      branches: ["main"]
       version: true
     - url: https://github.com/Paladins-Inn/db-updater.git
       start_path: docs/
       branches: ["main"]
-      version: true
-    - url: https://github.com/Paladins-Inn/session-planner.git
-      start_path: docs/
-      branches: main
       version: true
 
 urls:
