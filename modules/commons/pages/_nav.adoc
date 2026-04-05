@@ -3,11 +3,8 @@
 ** xref:dcis:dcis:index.adoc[]
 ** xref:architecture:arc42:index.adoc[]
 * Con Organization
-** xref:rollenspiel-cons:manual:index.adoc[]
-** xref:rollenspiel-cons:arc42:index.adoc[]
-* Session Organization
-** xref:session-planner:manual:index.adoc[]
-** xref:session-planner:arc42:index.adoc[]
+** xref:pandurart:manual:index.adoc[]
+** xref:pandurart:arc42:index.adoc[]
 * Utitlies
 ** xref:db-updater:manual:index.adoc[]
 ** xref:db-updater:arc42:index.adoc[]
